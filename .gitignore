@@ -10,3 +10,6 @@ node_modules
 
 # Local History for Visual Studio Code
 .history/
+
+.jekyll-cache/
+.jekyll-metadata

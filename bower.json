@@ -1,9 +1,10 @@
 {
-  "name": "photorama",
-  "description": "Photo Journal",
+  "name": "ariadnevenzal",
+  "description": "Personal webpage",
   "main": "index.html",
   "moduleType": [],
   "authors": [
+    "Marc Garnica"
     "Anna Prigkipaki"
   ],
   "license": "Apache-2.0",
