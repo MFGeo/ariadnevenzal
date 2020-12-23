@@ -1,5 +1,5 @@
 {
-  "name": "photorama",
+  "name": "ariadnevenzal",
   "version": "1.0.0",
   "description": "Theme by [Start Bootstrap](http://startbootstrap.com/).",
   "main": "Gruntfile.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sunbliss/photorama.git"
+    "url": "https://github.com/marcgarnica13/ariadnevenzal.git"
   },
-  "author": "Anna Prigkipaki",
+  "author": "Marc Garnica Caparrós",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/sunbliss/photorama/issues"
+    "url": "https://github.com/marcgarnica13/ariadnevenzal/issues"
   },
-  "homepage": "http://sunbliss.github.io",
+  "homepage": "www.ariadnevenzal.studio",
   "dependencies": {
     "searchkit": "^0.7.0"
   }
