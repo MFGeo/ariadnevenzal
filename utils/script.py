@@ -9,11 +9,11 @@ def run(action, path):
     if action == "gallery-images":
         click.echo(f"Root path {path}")
         image_files = [f for f in os.listdir(path)]
-        basename = os.path.basename(path)
+        basename = "gallery_cans"
         for image_file in image_files:
             click.echo(f"- image_path: gallery/archive/{basename}/{image_file}")
             click.echo(f"  caption: IMAGE TITLE")
-            click.echo(f"  copyright: © Oscar Penelo")
+            click.echo(f"  copyright: © Ariadnevenzal")
 
 
 if __name__ == '__main__':

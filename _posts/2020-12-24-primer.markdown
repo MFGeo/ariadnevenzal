@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Post 0: Els teus admiradors"
+subtitle: "El teu amic invisible"
+active: journal
+image:
+  feature: "general.jpg"
+date: 2020-12-24
+header-img: "img/postcover/post_primer.jpg"
+tags: []
+categories: []
+comments: false
+---

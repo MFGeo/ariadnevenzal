@@ -2,8 +2,8 @@
 title: ARIADNEVENZAL
 email: ""
 description: "Ariadne Studio"
-#url: "http://localhost:4000/"
-url: "https://ariadnevenzal.studio/"
+url: "http://localhost:4000/"
+#url: "https://ariadnevenzal.studio/"
 baseurl: ""
 facebook_username: "ariadna.cabezasextremera"
 instagram_username: "ariadnevenzal"
@@ -14,7 +14,7 @@ owner:
   name:   ariadnevenzal
   avatar: avatar.png
   favicon: favicon.ico
-  info: personal webpage and blog
+  info: Blog personal d'experiències
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -31,8 +31,8 @@ comments :
 nav:
   - HOME: "/"
   - GALLERY: "/gallery/"  
-  - JOURNAL: "/journal/"
-  - ABOUT: "/about/"
+  - BLOG: "/journal/"
+  - SOBRE MI: "/about/"
 
 include: ["_*.jpg"]
 
@@ -55,8 +55,7 @@ paginate_path: "/journal/page:num/"
 permalink: "/journal/:title/"
 categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
-gems: 
- - jekyll-paginate
+gems: [jekyll-paginate]
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # SiteMap
@@ -70,3 +69,5 @@ sitemap:
         - "/writing/"
     change_frequency_name: "change_frequency"
     priority_name: "priority"
+
+plugins: [jekyll-paginate]

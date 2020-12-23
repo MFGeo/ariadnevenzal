@@ -19,15 +19,15 @@ layout: default
 
 <article>
 <!-- Post Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% endif %}')">
+<header class="intro-header" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% endif %}')">
     <div class="container">
         <div class="row">
                             <div class="post-heading">
-                    <h1 style="color: #acd578;">{{ page.title }}</h1>
+                    <h1 style="color: #ffffff;">{{ page.title }}</h1>
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <span class="meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+                    <span class="meta">{{ page.date | date: "%B %-d, %Y" }}</span>
 
 <span class="time-tag-categ" style="font-size:.7em;background-color: rgba(128, 128, 128, 0.45);">
 
