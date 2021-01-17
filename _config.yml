@@ -31,8 +31,8 @@ comments :
 nav:
   - HOME: "/"
   - GALLERY: "/gallery/"  
-  - BLOG: "/journal/"
-  - SOBRE MI: "/about/"
+  - VIDEOS: "/journal/"
+  - ABOUT ME: "/about/"
 
 include: ["_*.jpg"]
 
