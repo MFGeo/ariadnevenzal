@@ -29,17 +29,23 @@ La pàgina de moment només té **4 grans apartats**:
 
 Per canviar la info que es mostra a la pàgina principal només has de tenir present el primer apartat (entre '---') del fitxer [index.html](https://github.com/marcgarnica13/ariadnevenzal/blob/gh-pages/index.html).
 
-L'animació és automàtica i només "li has d'indicar" a la web quines imatges utilitzar. Et recomano mantenir les imatges de la animació en una carpeta dins de la carpeta de img: [slider]https://github.com/marcgarnica13/ariadnevenzal/tree/gh-pages/img/slider).
+L'animació és automàtica i només "li has d'indicar" a la web quines imatges utilitzar. Et recomano mantenir les imatges de la animació en una carpeta dins de la carpeta de img: [slider](https://github.com/marcgarnica13/ariadnevenzal/tree/gh-pages/img/slider).
 
-#### Afegir imatge al animació
+#### Afegir imatge a l'animació
 
-- Navega a la carpeta [slider]https://github.com/marcgarnica13/ariadnevenzal/tree/gh-pages/img/slider).
+- Navega a la carpeta [slider](https://github.com/marcgarnica13/ariadnevenzal/tree/gh-pages/img/slider).
 - Clica a "afegir fitxer" i "puja".
 - Selecciona el fitxer en questió.
 - Afegeix una nova entrada dins de l'apartat "images" del [index.html](https://github.com/marcgarnica13/ariadnevenzal/blob/gh-pages/index.html). La nova entrada hauria de ser similar a:
-  image_path: /img/slider/nom_de_la_foto.extensio
-  gallery-folder: /img/slider/
-  =============
+
+```
+image_path: /img/slider/nom_de_la_foto.extensio
+gallery-folder: /img/slider/
+```
+
+#### Esborrar imatge de l'animació.
+
+Per esborrar la imatge només has de treure la entrada en questió al fitxer [index.html](https://github.com/marcgarnica13/ariadnevenzal/blob/gh-pages/index.html) i esborrar el fitxer de la carpeta (Obrint el fitxer primer i després clicant a "esborrar")
 
 Based on [Photorama](https://raw.githubusercontent.com/sunbliss/photorama)
 And **jekyll**
