@@ -396,17 +396,6 @@ body.gallerythumbsrevealed .position-absolute {
   -webkit-transform: translate3d(0, -64px, 0);
   transform: translate3d(0, -64px, 0);
 }
-.vimeo-div {
-  z-index: 1;
-  width: 100%;
-  bottom: 10vh;
-  position: absolute;
-}
-.vimeo-iframe {
-  margin: 10vh;
-  margin-left: 50%;
-  margin-right: 5%;
-}
 .horizontal-gallery.gallery {
   height: 50vh;
   white-space: nowrap;
@@ -612,14 +601,7 @@ img.mfp-img {
   }
 
   .vimeo-iframe {
-    margin: 10vh;
     width: 100%;
-  }
-  .vimeo-div {
-    z-index: 1;
-    width: 100%;
-    bottom: 25vh;
-    position: absolute;
   }
 }
 
@@ -631,14 +613,7 @@ img.mfp-img {
   .masonry-gallery .gallery-item {
     width: 98% !important;
   }
-  .vimeo-div {
-    z-index: 1;
-    width: 100%;
-    bottom: 25vh;
-    position: absolute;
-  }
   .vimeo-iframe {
-    margin: 1vh;
     width: 100%;
   }
 }
