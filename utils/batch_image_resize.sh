@@ -4,13 +4,13 @@
 # Author: Mike
 
 # absolute path to image folder
-FOLDER="/home/marc/Development/ariadnevenzal/img"
+FOLDER="/home/marc/Desktop/arinew/."
 
 # max width
-WIDTH=2000
+WIDTH=1000
 
 # max height
-HEIGHT=2000
+HEIGHT=1000
 
 #resize png or jpg to either height or width, keeps proportions using imagemagick
 #find ${FOLDER} -iname '*.jpg' -o -iname '*.png' -exec convert \{} -verbose -resize $WIDTHx$HEIGHT\> \{} \;
