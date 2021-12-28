@@ -57,25 +57,12 @@ images:
 							<p>{{ page.description }}</p>
 						</div><br />
 			</div>
+
+      <video playsinline autoplay muted loop muted id="bgvid">
+        <source src="videos/main.mp4" type="video/mp4">
+      </video>
 			
-			<div class="gallery fullscreen-gallery kenburns-gallery">
-
-				<canvas id="kenburns"></canvas>
-				
-{% for image in page.images %}  	
-
-				<figure class="gallery-item">
-					<header class='gallery-icon'>
-
-<a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
-<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
-	
-				</header>	
-				</figure>
-
-{% endfor %}
-
-				</div>
+			
 			<!-- END WYSIWYG -->
 			
 	

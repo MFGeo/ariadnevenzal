@@ -1,4 +1,8 @@
 (function( $ ){
+	$('video').on('ended', function () {
+		this.load();
+		this.play();
+	  });
 
 	// fullscreen gallery
 	var $fullscreen_gallery = jQuery('.fullscreen-gallery.gallery');

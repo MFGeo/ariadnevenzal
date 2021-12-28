@@ -29,10 +29,12 @@ comments :
 
 # Internal nav
 nav:
-  - HOME: "/"
-  - GALLERY: "/gallery/"  
+  - INICIO: "/"
+  - GALERÍA: "/gallery/"  
   - VIDEOS: "/videos/"
-  - ABOUT ME: "/about/"
+  - CURRÍCULUM: "/cv/"
+  - SOBRE MI: "/about/"
+  - CONTACTO: "/contact/"
 
 include: ["_*.jpg"]
 
