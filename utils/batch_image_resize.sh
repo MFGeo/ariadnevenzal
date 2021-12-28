@@ -4,7 +4,7 @@
 # Author: Mike
 
 # absolute path to image folder
-FOLDER="/home/marc/Development/ariadnevenzal/gallery/archive/gallery_book_22"
+FOLDER="/home/marc/Development/ariadnevenzal/gallery/archive/gallery_book"
 
 # max width
 WIDTH=1000
