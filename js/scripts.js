@@ -203,6 +203,45 @@
 			});
 		}
 	});
+
+	var w = window.matchMedia("only screen and (max-width: 760px)");
+	var vid = document.getElementById("bgvid");
+	var source = document.createElement("source");
+	source.id = "hvid";
+	source.setAttribute("type", "video/mp4");
+	vid.appendChild(source);
+	
+	if (w.matches) {
+		vid.pause();
+		source.removeAttribute("src");
+		source.setAttribute("src", "videos/main_vertical.mp4");
+		vid.load();
+		vid.play();
+	} else {
+		vid.pause();
+		source.removeAttribute("src");
+		source.setAttribute("src", "videos/main.mp4");
+		vid.load();
+		vid.play();
+	}
+
+	window.addEventListener("resize", function(){
+		var w = window.matchMedia("only screen and (max-width: 760px)");
+		var vid = document.getElementById("bgvid");
+		var source = document.getElementById("hvid");
+		
+		if (w.matches) {
+			vid.pause();
+			source.src = "videos/main_vertical.mp4";
+			vid.load();
+			vid.play();
+		} else {
+			vid.pause();
+			source.src = "videos/main.mp4";
+			vid.load();
+			vid.play();
+		}
+	});
 	
 
 } )( jQuery );
