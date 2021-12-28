@@ -30,9 +30,9 @@ comments :
 nav:
   - INICIO: "/"
   - GALERÍA: "/gallery/"  
-  - VIDEOS: "/videos/"
+  - VÍDEOS: "/videos/"
   - CURRÍCULUM: "/cv/"
-  - SOBRE Mí: "/about/"
+  - SOBRE MÍ: "/about/"
   - CONTACTO: "/contact/"
 
 include: ["_*.jpg"]
