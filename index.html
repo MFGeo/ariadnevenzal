@@ -53,7 +53,7 @@ images:
          <h3 class="big no-margin"> <span class="glyphicon glyphicon-play"></span> <strong>Videobook 2021-2022</strong></h3>
         </a>
 				<h2 class="big no-margin"><strong>{{ page.main-title }}</strong></h2>
-				<h2>{{ page.subtitle }}</h2> 
+				<h2 id="subtitle_h2">{{ page.subtitle }}</h2> 
                      <div class="entry-summary">
 							<p>{{ page.description }}</p>
 						</div><br />
@@ -76,7 +76,7 @@ images:
                  {% if site.facebook_username %}
 			<li>
    <a href="https://facebook.com/{{ site.facebook_username }}" style="
-color:#dddddd; target="_blank" title="Facebook">
+color:#dddddd;" target="_blank" title="Facebook">
                        <i class="fa fa-facebook"></i>
                      </span>
 </a></li>
@@ -84,7 +84,7 @@ color:#dddddd; target="_blank" title="Facebook">
  {% if site.twitter_username %}
 			<li>
    <a href="https://twitter.com/{{ site.twitter_username }}" style="
-color:#dddddd; target="_blank" title="Twitter">
+color:#dddddd;" target="_blank" title="Twitter">
                        <i class="fa fa-twitter"></i>
                      </span>
 </a></li>
@@ -92,7 +92,7 @@ color:#dddddd; target="_blank" title="Twitter">
                 {% if site.instagram_username %}
 			<li>
    <a href="https://instagram.com/{{ site.instagram_username }}" style="
-color:#dddddd; target="_blank" title="Instagram">
+color:#dddddd;" target="_blank" title="Instagram">
                        <i class="fa fa-instagram"></i>
                      </span>
 </a></li>
@@ -100,7 +100,7 @@ color:#dddddd; target="_blank" title="Instagram">
                     {% if site.flickr_username %}
 						<li>
    <a href="https://flickr.com/photos/{{ site.flickr_username }}" style="
-color:#dddddd; target="_blank" title="Flickr">
+color:#dddddd;" target="_blank" title="Flickr">
               <i class="fa fa-flickr"></i>
                      </span>
  </a></li>	
@@ -108,20 +108,20 @@ color:#dddddd; target="_blank" title="Flickr">
                     {% if site.deviantart_username %}
 			<li>
    <a href="http://{{ site.deviantart_username }}.deviantart.com" style="
-color:#dddddd; target="_blank" title="DeviantArt">
+color:#dddddd;" target="_blank" title="DeviantArt">
 <i class="fa fa-deviantart"></i> </span>
 </a></li>	
     {% endif %}
                     {% if site.github_username %}
                 <li>
    <a href="https://github.com/{{ site.github_username }}" style="
-color:#dddddd; target="_blank" title="Github">
+color:#dddddd;" target="_blank" title="Github">
               <i class="fa fa-github"></i>
                      </span>
                    {% endif %}
 <li>
     <a href="mailto:{{ site.email }}" style="
-color:#dddddd; target="_blank" title="Email">
+color:#dddddd;" target="_blank" title="Email">
               <i class="fa fa-envelope-o"></i></span>
           </a> </li>
 	
